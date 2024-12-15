@@ -1,0 +1,114 @@
+{
+	"pompen": {
+		"pompLinks": {
+			"pompID": 1,
+			"actief": false,
+			"foutmelding": null,
+			"uptime": 100,
+			"waterverbruikPerDagInLiters": 5,
+			"pompAanzetten": false
+		},
+		"pompRechts": {
+			"pompID": 2,
+			"actief": false,
+			"foutmelding": 113,
+			"uptime": 0,
+			"waterverbruikPerDagInLiters": 0,
+			"pompAanzetten": false
+		}
+	},
+	"sensoren": {
+		"sensor-1": {
+			"sensorID": 1,
+			"actief": true,
+			"deviceNaam": "Capacitive Soil Moisture Sensor V1.0",
+			"foutmelding": null,
+			"uptime": 99,
+			"locatie": "Leiden",
+			"grondvochtigheid": 342
+		},
+		"sensor-2": {
+			"sensorID": 2,
+			"actief": true,
+			"deviceNaam": "Capacitive Soil Moisture Sensor V1.0",
+			"foutmelding": null,
+			"uptime": 99,
+			"locatie": "Leiden",
+			"grondvochtigheid": 362
+		},
+		"sensor-3": {
+			"sensorID": 3,
+			"actief": true,
+			"deviceNaam": "Capacitive Soil Moisture Sensor V1.0",
+			"foutmelding": null,
+			"uptime": 99,
+			"locatie": "Leiden",
+			"grondvochtigheid": 297
+		},
+		"sensor-4": {
+			"sensorID": 4,
+			"actief": true,
+			"deviceNaam": "Capacitive Soil Moisture Sensor V1.0",
+			"foutmelding": null,
+			"uptime": 99,
+			"locatie": "Leiden",
+			"grondvochtigheid": 320
+		},
+		"sensor-5": {
+			"sensorID": 5,
+			"actief": true,
+			"deviceNaam": "Capacitive Soil Moisture Sensor V1.0",
+			"foutmelding": null,
+			"uptime": 99,
+			"locatie": "Leiden",
+			"grondvochtigheid": 342
+		},
+		"sensor-6": {
+			"sensorID": 6,
+			"actief": true,
+			"deviceNaam": "Capacitive Soil Moisture Sensor V1.0",
+			"foutmelding": null,
+			"uptime": 99,
+			"locatie": "Leiden",
+			"grondvochtigheid": 286
+		},
+		"sensor-7": {
+			"sensorID": 7,
+			"actief": true,
+			"deviceNaam": "Capacitive Soil Moisture Sensor V1.0",
+			"foutmelding": null,
+			"uptime": 99,
+			"locatie": "Leiden",
+			"grondvochtigheid": 329
+		},
+		"sensor-8": {
+			"sensorID": 8,
+			"actief": true,
+			"deviceNaam": "Capacitive Soil Moisture Sensor V1.0",
+			"foutmelding": null,
+			"uptime": 99,
+			"locatie": "Leiden",
+			"grondvochtigheid": 345
+		}
+	},
+	"logboek": {
+		"foutmeldingen": [
+			{
+				"apparaatSoort": "sensor",
+				"apparaat": "sensor-8",
+				"melding": "Geen data ontvangen van sensor",
+				"apparaatID": 8,
+				"tijdstip": "10 december 2024 - 12:00",
+				"foutcode": 113
+			},
+			{
+				"apparaatSoort": "pomp",
+				"apparaat": "pompLinks",
+				"melding": "Pomp is niet aangegaan",
+				"apparaatID": 1,
+				"tijdstip": "12 december 2024 - 16:33",
+				"foutcode": 113
+			}
+		]
+	}
+}

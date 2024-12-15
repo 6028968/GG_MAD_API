@@ -1,0 +1,315 @@
+{ 
+	"pompen": { 
+		"pompLinks": { 
+			"pompID": 1, 
+			"actief": false, 
+			"foutmelding": null, 
+			"uptime": 100, 
+			"waterverbruikPerDagInLiters": 5, 
+			"pompAanzetten": false
+		},
+		"pompRechts": { 
+			"pompID": 2, 
+			"actief": false, 
+			"foutmelding": 113, 
+			"uptime": 0, 
+			"waterverbruikPerDagInLiters": 0, 
+			"pompAanzetten": false
+		}
+	},
+	"sensoren": { 
+		"sensor-1": { 
+			"sensorID": 1, 
+			"actief": true, 
+			"deviceNaam": "Capacitive Soil Moisture Sensor V1.0", 
+			"foutmelding": null, 
+			"uptime": 99, 
+			"locatie": "The Field - Leiden", 
+			"grondvochtigheid": 542,
+			"dataOntvangen": "8 december 2024 - 10:15"
+		},
+		"sensor-2": { 
+			"sensorID": 2, 
+			"actief": true, 
+			"deviceNaam": "Capacitive Soil Moisture Sensor V1.0", 
+			"foutmelding": null, 
+			"uptime": 99, 
+			"locatie": "The Field - Leiden", 
+			"grondvochtigheid": 362,
+			"dataOntvangen": "8 december 2024 - 10:16"
+		},
+		"sensor-3": { 
+			"sensorID": 3, 
+			"actief": false, 
+			"deviceNaam": "Capacitive Soil Moisture Sensor V1.0", 
+			"foutmelding": 1001, 
+			"uptime": 0, 
+			"locatie": "The Field - Leiden", 
+			"grondvochtigheid": 0,
+			"dataOntvangen": "n.v.t."
+		},
+		"sensor-4": { 
+			"sensorID": 4, 
+			"actief": false, 
+			"deviceNaam": "Capacitive Soil Moisture Sensor V1.0", 
+			"foutmelding": 1001, 
+			"uptime": 0, 
+			"locatie": "The Field - Leiden", 
+			"grondvochtigheid": 0,
+			"dataOntvangen": "n.v.t."
+		},
+		"sensor-5": { 
+			"sensorID": 5, 
+			"actief": false, 
+			"deviceNaam": "Capacitive Soil Moisture Sensor V1.0", 
+			"foutmelding": 1001, 
+			"uptime": 0, 
+			"locatie": "The Field - Leiden", 
+			"grondvochtigheid": 0,
+			"dataOntvangen": "n.v.t."
+		},
+		"sensor-6": { 
+			"sensorID": 6, 
+			"actief": false, 
+			"deviceNaam": "Capacitive Soil Moisture Sensor V1.0", 
+			"foutmelding": 1001, 
+			"uptime": 0, 
+			"locatie": "The Field - Leiden", 
+			"grondvochtigheid": 0,
+			"dataOntvangen": "n.v.t."
+		},
+		"sensor-7": { 
+			"sensorID": 7, 
+			"actief": false, 
+			"deviceNaam": "Capacitive Soil Moisture Sensor V1.0", 
+			"foutmelding": 1001, 
+			"uptime": 0, 
+			"locatie": "The Field - Leiden", 
+			"grondvochtigheid": 0,
+			"dataOntvangen": "n.v.t."
+		},
+		"sensor-8": { 
+			"sensorID": 8, 
+			"actief": false, 
+			"deviceNaam": "Capacitive Soil Moisture Sensor V1.0", 
+			"foutmelding": 1001, 
+			"uptime": 0, 
+			"locatie": "The Field - Leiden", 
+			"grondvochtigheid": 0,
+			"dataOntvangen": "n.v.t."
+		}
+	},
+	"logboek": { 
+		"foutmeldingen": [ 
+			{ 
+				"foutmeldingID": 1,
+				"apparaatSoort": "Sensor", 
+				"apparaat": "sensor 8", 
+				"melding": "Geen data ontvangen van sensor", 
+				"apparaatID": 8, 
+				"tijdstip": "10 december 2024 - 12:00", 
+				"foutcode": 113
+			},
+			{ 
+				"foutmeldingID": 2,
+				"apparaatSoort": "Pomp", 
+				"apparaat": "Pomp Links", 
+				"melding": "Waterdruk te laag", 
+				"apparaatID": 1, 
+				"tijdstip": "8 december 2024 - 11:45", 
+				"foutcode": 222
+			},
+			{ 
+				"foutmeldingID": 3,
+				"apparaatSoort": "Sensor", 
+				"apparaat": "sensor 8", 
+				"melding": "Geen data ontvangen van sensor", 
+				"apparaatID": 8, 
+				"tijdstip": "10 december 2024 - 12:00", 
+				"foutcode": 113
+			},
+			{ 
+				"foutmeldingID": 4,
+				"apparaatSoort": "Pomp", 
+				"apparaat": "Pomp Links", 
+				"melding": "Pomp is niet aangegaan", 
+				"apparaatID": 1, 
+				"tijdstip": "12 december 2024 - 16:33", 
+				"foutcode": 113
+			},
+			{ 
+				"foutmeldingID": 5,
+				"apparaatSoort": "Sensor", 
+				"apparaat": "sensor 8", 
+				"melding": "Geen data ontvangen van sensor", 
+				"apparaatID": 8, 
+				"tijdstip": "10 december 2024 - 12:00", 
+				"foutcode": 113
+			},
+			{ 
+				"foutmeldingID": 6,
+				"apparaatSoort": "Pomp", 
+				"apparaat": "Pomp Links", 
+				"melding": "Pomp is niet aangegaan", 
+				"apparaatID": 1, 
+				"tijdstip": "12 december 2024 - 16:33", 
+				"foutcode": 113
+			},
+			{ 
+				"foutmeldingID": 7,
+				"apparaatSoort": "Sensor", 
+				"apparaat": "sensor 8", 
+				"melding": "Geen data ontvangen van sensor", 
+				"apparaatID": 8, 
+				"tijdstip": "10 december 2024 - 12:00", 
+				"foutcode": 113
+			},
+			{ 
+				"foutmeldingID": 8,
+				"apparaatSoort": "Pomp", 
+				"apparaat": "Pomp Links", 
+				"melding": "Pomp is niet aangegaan", 
+				"apparaatID": 1, 
+				"tijdstip": "8 december 2024 - 14:00", 
+				"foutcode": 113
+			}
+		],
+		"wijzigingen": [
+			{
+				"wijzigingID": 1,
+				"apparaatSoort": "Pomp",
+				"apparaat": "Pomp Links",
+				"wijziging": "Python script aangepast",
+				"apparaatID": 1, 
+				"tijdstip": "12 december 2024 - 16:33"
+			},
+			{
+				"wijzigingID": 2,
+				"apparaatSoort": "Pomp",
+				"apparaat": "Pomp Links",
+				"wijziging": "Kalibratie uitgevoerd",
+				"apparaatID": 1, 
+				"tijdstip": "8 december 2024 - 14:00"
+			},
+			{
+				"wijzigingID": 3,
+				"apparaatSoort": "Pomp",
+				"apparaat": "Pomp Links",
+				"wijziging": "Slangen vervangen",
+				"apparaatID": 1, 
+				"tijdstip": "10 december 2024 - 10:33"
+			}
+		],
+		"bijzonderheden": [
+			{
+				"bijzonderheidID": 1,
+				"bijzonderheid": "SSH verbinding is verbroken",
+				"tijdstip": "10 december 2024 - 12:00",
+				"apparaatID": "n.v.t.",
+				"apparaat": "n.v.t."
+			},
+			{
+				"bijzonderheidID": 2,
+				"bijzonderheid": "Raspberry PI 4 is uitgezet",
+				"tijdstip": "10 december 2024 - 12:00",
+				"apparaatID": 1303594640,
+				"apparaat": "Raspberry PI 4"
+			},
+			{
+				"bijzonderheidID": 3,
+				"bijzonderheid": "Verbinding gemaakt met Raspberry PI 4",
+				"tijdstip": "10 december 2024 - 12:00",
+				"apparaatID": 1303594640,
+				"apparaat": "Raspberry PI 4"
+			}
+		]
+	},
+	"overzicht": {
+		"sensordata": [
+			{
+				"sensordataID": 1,
+				"waarde": 356,
+				"tijdstip": "10 december 2024 - 12:00",
+				"apparaatID": 1,
+				"apparaat": "Sensor 1"
+			},
+			{
+				"sensordataID": 2,
+				"waarde": 356,
+				"tijdstip": "10 december 2024 - 12:00",
+				"apparaatID": 1,
+				"apparaat": "Sensor 1"
+			},
+			{
+				"sensordataID": 3,
+				"waarde": 356,
+				"tijdstip": "10 december 2024 - 12:00",
+				"apparaatID": 1,
+				"apparaat": "Sensor 1"
+			},
+			{
+				"sensordataID": 4,
+				"waarde": 356,
+				"tijdstip": "10 december 2024 - 12:00",
+				"apparaatID": 1,
+				"apparaat": "Sensor 1"
+			},
+			{
+				"sensordataID": 5,
+				"waarde": 356,
+				"tijdstip": "10 december 2024 - 12:00",
+				"apparaatID": 1,
+				"apparaat": "Sensor 1"
+			},
+			{
+				"sensordataID": 6,
+				"waarde": 356,
+				"tijdstip": "10 december 2024 - 12:00",
+				"apparaatID": 1,
+				"apparaat": "Sensor 1"
+			}
+		],
+		"plantdata": [
+			{
+				"plantdataID": 1,
+				"plantnaam": "Wortel",
+				"beschrijving": "Plant is verwijderd uit kas",
+				"tijdstip":"12 december 2024 - 16:33",
+				"plantID": 234,
+				"reden": "Plant is dood gegaan"
+			},
+			{
+				"plantdataID": 2,
+				"plantnaam": "Tomaat",
+				"beschrijving": "Water toegevoegd",
+				"tijdstip":"2 december 2024 - 08:14",
+				"plantID": 501,
+				"reden": "Droge grond"
+			},
+			{
+				"plantdataID": 3,
+				"plantnaam": "Komkommer",
+				"beschrijving": "Verplant naar andere kas",
+				"tijdstip":"12 december 2024 - 16:33",
+				"plantID": 235,
+				"reden": "Optimalisatie groei"
+			},
+			{
+				"plantdataID": 4,
+				"plantnaam": "Tijm",
+				"beschrijving": "Plant in andere bak gedaan",
+				"tijdstip":"7 december 2024 - 18:46",
+				"plantID": 957,
+				"reden": "Plant groeide niet goed"
+			},
+			{
+				"plantdataID": 5,
+				"plantnaam": "Brandnetel",
+				"beschrijving": "Verkeerde plant gepoot",
+				"tijdstip":"9 december 2024 - 16:34",
+				"plantID": 743,
+				"reden": "Werkte niet met andere planten"
+			}
+		]
+	}
+}
